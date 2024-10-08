@@ -1,21 +1,10 @@
-/*console.log('Start');
-function ChekforEvenodd(num) {
-    if (num % 2 === 0) {
-        return "Even";
-    } else {
-        return "Odd";
-    }
-}
-console.log(ChekforEvenodd(11));
-console.log("Finish");*/
 
 const a = 1;
-const b = 3;
-
-const total = add(a, b);
-console.log(total);
+const b = 34;
+const total = add(a, b); // вызов функции add с аргументами a и b
+console.log(total); // вывод результата
 
 function add(num1, num2) {
-    add = num1 + num2;
-    return Result;
+    const sum = num1 + num2; // вычисляем сумму
+    return sum; // возвращаем сумму
 }
