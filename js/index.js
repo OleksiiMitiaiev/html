@@ -12,10 +12,10 @@ console.log("Finish");*/
 const a = 1;
 const b = 3;
 
-const total=add(a,b);
+const total = add(a, b);
 console.log(total);
 
-function total(num1, num2){
-    total=num1 + num2;
+function add(num1, num2) {
+    add = num1 + num2;
     return Result;
 }
